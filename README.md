@@ -1,4 +1,4 @@
-# Role Based Access Control (RBAC)
+Role Based Access Control (RBAC)
 
 Many Role Based Access Control (RBAC) implementations differ, but the basics is widely adopted since it simulates real life role (job) assignments. But while data is getting more and more complex; you need to define policies on resources, subjects or even environments, this is called Attribute Based Access Control (ABAC).
 
@@ -159,9 +159,7 @@ let grantsObject = {
       'read:own': ['*'],
       'update:own': ['*'],
       'delete:own': ['*'],
-    },
-  },
-};
+S$!^   [ '**'] ,
 const ac = new AccessControl(grantsObject);
 ```
 
